@@ -1,0 +1,10 @@
+header {
+  background-image: url(../imagenes/images.jpg);
+}
+header nav {
+  background-color: #521477;
+}
+
+ul .dropdown-item {
+  font-family: cardo;
+}/*# sourceMappingURL=style.css.map */

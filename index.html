@@ -10,16 +10,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="./css/styles.css">
-    <!-- favicon -->
+    <link rel="stylesheet" href="./sass/style.css">
+    <!-- favicon -->   
     
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- imagen navegador -->
+    <link rel="stylesheet" href="./imagenes/images.jpg">
+
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar scroll</a>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid barra-nav">
+                <a class="navbar-brand" href="#">hechizos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,23 +34,23 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">tarot y runas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">instagram</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                Link
+                                tienda on line
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="#">velas y aromatizantes</a></li>
+                                <li><a class="dropdown-item" href="#">piedas y amuletos</a></li>
+                                <li><a class="dropdown-item" href="#">runas, cartas y pendulos</a>
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">hierbas, incienso y más</a></li>
+                                <li><a class="dropdown-item" href="#">homme & deco</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -52,13 +59,13 @@
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button type="button" class="btn btn-outline-secondary">Search</button>
                     </form>
                 </div>
             </div>
         </nav>
         <div>
-            <img src="./imagenes/Captura.PNG" alt="logo">
+            <img class="logo d-flex justify-content-center" src="./imagenes/Captura.PNG" alt="logo">
         </div>
     </header>
 
