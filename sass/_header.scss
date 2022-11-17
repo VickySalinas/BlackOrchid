@@ -1,11 +1,12 @@
 header{
     background-image: url(../imagenes/images.jpg);
     
-    .logo{
-        
-    }
+
     nav{
         background-color: $colorbarra;
+        .navbar{
+            position: sticky;
+        }
     }
 }
 
@@ -16,3 +17,19 @@ ul{
     }
 }
 
+main{
+    background-color: $colorfondo;
+    div{
+        border: solid $colorbarra;
+        border-radius: 1rem;
+        max-width: 50rem;
+        max-height: 30rem;
+        overflow: hidden;
+    }
+    .img-html{
+        width: 50rem;
+        height: auto;
+        border-radius: 1rem;
+        
+    }
+}

@@ -4,7 +4,27 @@ header {
 header nav {
   background-color: #521477;
 }
+header nav .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+}
 
 ul .dropdown-item {
   font-family: cardo;
+}
+
+main {
+  background-color: #E1E099;
+}
+main div {
+  border: solid #521477;
+  border-radius: 1rem;
+  max-width: 50rem;
+  max-height: 30rem;
+  overflow: hidden;
+}
+main .img-html {
+  width: 50rem;
+  height: auto;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */
