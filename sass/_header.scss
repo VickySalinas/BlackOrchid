@@ -22,14 +22,16 @@ main{
     div{
         border: solid $colorbarra;
         border-radius: 1rem;
-        max-width: 50rem;
-        max-height: 30rem;
+        max-width: 40rem;
+        max-height: 20rem;
         overflow: hidden;
+        margin: 3rem 0 1rem 0;
+        box-shadow: #661097 5px 5px, #a034df 10px 10px, #bb73e6 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
     }
     .img-html{
-        width: 50rem;
+        width: 40rem;
         height: auto;
-        border-radius: 1rem;
+        
         
     }
 }
