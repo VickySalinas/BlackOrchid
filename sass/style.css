@@ -1,3 +1,8 @@
+a {
+  font-family: cardo;
+  text-transform: uppercase;
+}
+
 header {
   background-image: url(../imagenes/images.jpg);
 }
@@ -22,10 +27,18 @@ main div {
   max-width: 40rem;
   max-height: 20rem;
   overflow: hidden;
-  margin: 3rem 0 1rem 0;
+  margin: 3rem 0 3rem 0;
   box-shadow: #661097 5px 5px, #a034df 10px 10px, #bb73e6 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 main .img-html {
   width: 40rem;
   height: auto;
+  cursor: pointer;
+}
+
+footer .card {
+  background-color: #521477;
+}
+footer .card .card-body {
+  background-color: #bb73e6;
 }/*# sourceMappingURL=style.css.map */
